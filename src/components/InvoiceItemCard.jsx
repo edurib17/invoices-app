@@ -1,21 +1,14 @@
 import {
   Badge,
   Box,
-  Button,
-  Center,
-  Divider,
   FormControl,
   HStack,
-  Icon,
   Input,
-  Pressable,
-  Stack,
   Text,
   VStack,
   View,
 } from "native-base";
-import Ionicons from "react-native-vector-icons/Ionicons";
-import { currencyFormat, formatDate } from "../utils/Utils";
+import { currencyFormat } from "../utils/Utils";
 
 export default function InvoiceItemCard({ invoiceItem }) {
   return (
