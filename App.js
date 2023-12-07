@@ -1,7 +1,7 @@
+import { NativeBaseProvider } from "native-base";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import HomeScreen from "./src/screens/HomeScreen";
-import { NativeBaseProvider } from "native-base";
 import DetailsScreen from "./src/screens/DetailsScreen";
 
 export default function App() {

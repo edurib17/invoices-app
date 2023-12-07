@@ -21,9 +21,9 @@ export default function InvoiceCard({ invoice, handleInvoiceDetails }) {
           <Pressable>
             <Stack>
               <Box>
-                <Text fontWeight="bold">{invoice.invoiceNumber}</Text>
+                <Text fontWeight="bold">Nº: {invoice.invoiceNumber}</Text>
                 <Text color="gray.500">
-                  {formatDate(invoice.date)}
+                  {"Data: " + formatDate(invoice.date)}
                 </Text>
               </Box>
             </Stack>
